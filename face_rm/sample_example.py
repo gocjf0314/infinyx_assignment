@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # package에 있는 이미지 가져오기
     # img = get_image("t1")
-    img = cv2.imread("face_rm/sample_img.jpg")
+    img = cv2.imread("sample_img.jpg")
 
     # 얼굴 분류기 사용을 위한 모델로 부터 얼굴 검출
     faces = app.get(img)
@@ -43,4 +43,4 @@ if __name__ == '__main__':
             cv2.circle(tim, p, 1, color, 1, cv2.LINE_AA)
 
     # 검출된 얼굴에 랜드마크를 찍은 이미지 저장
-    cv2.imwrite('face_rm/sample_out.jpg', tim)
+    cv2.imwrite('sample_out.jpg', tim)
