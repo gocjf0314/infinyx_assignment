@@ -1,5 +1,11 @@
-scikit-image
+scikit-image==0.20.0
+scikit-learn==1.2.2
 numpy==1.23.5
 onnxruntime==1.13.1
-opencv_python==4.7.0.68
-insightface>=0.7
+opencv-python==4.7.0.68
+pandas==2.1.0
+matplotlib==3.7.1
+insightface==0.7.3
+onnx==1.13.1
+onnxruntime==1.13.1
+onnxruntime-gpu==1.14.1
