@@ -1,6 +1,9 @@
 # VS Code Settings
 .vscode/
 
+# File settings
+face_swap/youtube_faces_*_*/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
