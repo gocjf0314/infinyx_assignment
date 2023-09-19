@@ -1,15 +1,17 @@
 # Infinyx_assignment
 
 - Assignment for joining infinyx
-- Window environment
+- Developed in Window environment
+- Execution directory is 'face_rm' or 'face_swap'
 
 ## Ref-Links
 
 [python development ref with CV](https://datascienceschool.net/intro.html)
+[data set link](https://www.kaggle.com/datasets/selfishgene/youtube-faces-with-facial-keypoints)
 
 ### Face Detection
 
-- [model](https://drive.google.com/file/d/13Pz8mH-a1s7RXpq_jFUXxaqCpDUE0oSr/view)
+- [model: buffalo_l](https://drive.google.com/file/d/13Pz8mH-a1s7RXpq_jFUXxaqCpDUE0oSr/view)
 - [source code](https://github.com/deepinsight/insightface/tree/master/alignment)
 
 ### Swap faces
